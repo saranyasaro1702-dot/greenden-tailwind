@@ -1,0 +1,46 @@
+<div class="container">
+<div class="header">header</div>
+<div class="middle">middle</div>
+<div class="one">
+    <div class="main">main</div>
+    <div class="side">side</div>
+</div>
+<div class="footer">footer</div>
+</div>
+<style>
+    .container{
+        display: grid;
+        grid-template-rows: 1fr 3fr 1fr;
+    }
+    .header{
+        background-color: aqua;
+        
+
+    }
+    .footer{ 
+        background-color: aqua;
+
+    }
+    .middle{
+        background-color: aquamarine;
+
+    }
+    .one{
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+
+
+    }
+    .main{
+        background-color: green;
+        color: aliceblue;
+        height: 100px;
+
+    }
+    .side{
+        background-color: orange;
+        color: antiquewhite;
+        height: 100px;
+    }
+
+</style>
